@@ -22,3 +22,21 @@
 */
 
 // YOUR CODE HERE
+var bottles;
+for (i = 5; i >= 0; i--)
+{
+    if (i == 1) {
+        bottles = 'bottle';
+    } else { bottles = 'bottles';
+    }
+    if (i <=5 && i!==0) {
+        console.log("");
+        console.log(i+" "+bottles+" of beer on the wall,");
+
+    console.log(i+" "+bottles+" of beer!");
+    console.log("Take one down and pass it around,");
+
+    } else {
+        console.log("No bottles of beer on the wall.");
+    }
+}
