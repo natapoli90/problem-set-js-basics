@@ -21,3 +21,6 @@
 */
 
 // YOUR CODE HERE
+function isPalindrome(i) {
+  return i == i.split('').reverse().join('');
+}
